@@ -488,9 +488,9 @@
   //#define DEFAULT_Kd 76.55
 
   // Creality Ender-3 - Fake Microswiss
-  #define DEFAULT_Kp 19.02
-  #define DEFAULT_Ki 1.18
-  #define DEFAULT_Kd 76.68
+  #define DEFAULT_Kp 20.27
+  #define DEFAULT_Ki 1.59
+  #define DEFAULT_Kd 64.44
 
   // Ultimaker
   //#define DEFAULT_Kp 22.2
