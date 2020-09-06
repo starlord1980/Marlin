@@ -2513,7 +2513,7 @@
 
   #if EITHER(SENSORLESS_HOMING, SENSORLESS_PROBING)
     // TMC2209: 0...255. TMC2130: -64...63
-    #define X_STALL_SENSITIVITY  53   //over 53 and it starts misbehaving
+    #define X_STALL_SENSITIVITY  54   //over 53 and it starts misbehaving
     #define X2_STALL_SENSITIVITY X_STALL_SENSITIVITY
     #define Y_STALL_SENSITIVITY  50
     #define Y2_STALL_SENSITIVITY Y_STALL_SENSITIVITY
