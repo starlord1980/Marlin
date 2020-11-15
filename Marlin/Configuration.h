@@ -990,7 +990,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { 38.2, 0, -1.5 }
+#define NOZZLE_TO_PROBE_OFFSET { 38.2, 0, -1.68 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
@@ -1379,7 +1379,7 @@
 // Manually set the home position. Leave these undefined for automatic settings.
 // For DELTA this is the top-center of the Cartesian print volume.
 //#define MANUAL_X_HOME_POS -6
-#define MANUAL_Y_HOME_POS -20
+#define MANUAL_Y_HOME_POS -19
 #define MANUAL_Z_HOME_POS 2
 
 // Use "Z Safe Homing" to avoid homing with a Z probe outside the bed area.
